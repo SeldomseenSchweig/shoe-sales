@@ -1,0 +1,39 @@
+ body {
+width:100%;
+background: linear-gradient(to bottom right, red, yellow);
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.header{
+  /* padding-top:100px;
+  margin-bottom: 120px; */
+  text-align:center;
+  margin: 20px;
+}
+#header-right{
+  margin-bottom: 50px;
+}
+#header-left{
+  
+  margin-top:100px
+}
+
+.store-container{
+  padding:20px;
+  text-align:center;
+  margin: 20px;
+}
+
+.button-container {
+  display: flex; /* Enables flexbox */
+  justify-content: center; /* Centers the buttons horizontally */
+  gap: 10px; /* Adds space between the buttons */
+  margin: 0px auto; /* Centers the container and adds vertical space */
+  width: fit-content; /* Sets width based on content */
+}
+
+button {
+  padding: 10px 20px; /* Adds padding for the buttons */
+  font-size: 16px; /* Sets a font size */
+}
